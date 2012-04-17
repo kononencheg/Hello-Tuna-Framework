@@ -1,51 +1,46 @@
+
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8" />
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Hello-tuna-framework : Базовый шаблон приложения использующего Tuna-Framework" />
+        <title>Hello Tuna Framework!</title>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        <!-- Стили оформления (Twitter Bootstrap)  -->
 
-    <title>Hello-tuna-framework</title>
-  </head>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <body>
+        <style type="text/css">
+            a { cursor: pointer; }
+        </style>
+    </head>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/kononencheg/Hello-Tuna-Framework">Fork Me on GitHub</a>
+    <body>
 
-          <h1 id="project_title">Hello-tuna-framework</h1>
-          <h2 id="project_tagline">Базовый шаблон приложения использующего Tuna-Framework</h2>
+        <!-- Контент страницы  -->
 
-          <section id="downloads">
-            <a class="zip_download_link" href="https://github.com/kononencheg/Hello-Tuna-Framework/zipball/master">Download this project as a .zip file</a>
-            <a class="tar_download_link" href="https://github.com/kononencheg/Hello-Tuna-Framework/tarball/master">Download this project as a tar.gz file</a>
-          </section>
-        </header>
-    </div>
+        <div class="j-popup hide" data-name="hello-popup">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3>Hello Tuna Framework!</h3>
+                </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Tuna Framework</h1>
+                <div class="modal-body">
+                    <a class="j-popup-close btn pull-right">Close</a>
+                </div>
+            </div>
+            <div class="modal-backdrop"></div>
+        </div>
 
-<p>Базовый шаблон приложения.</p>
-      </section>
-    </div>
+        <!--[if IE]>-->
+            <script type="text/javascript" src="js/json.js"></script>
+        <!--<![endif]-->
+        <script type="text/javascript" src="js/sizzle.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript">
+            main(document.body);
+        </script>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Hello-tuna-framework maintained by <a href="https://github.com/kononencheg">kononencheg</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+    </body>
 </html>
+
